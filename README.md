@@ -750,4 +750,8 @@ The Google Drive folder contains covost_v2.ar_en.tsv and the common_voice_ar/ au
 and TSV files. The dataset is CC0 licensed (public domain).
 
 ### Demo Video
+<<<<<<< HEAD
 - **Demo video**: [demo/demo_hams_assessment.mp4]([demo/demo_hams_assessment.mp4](https://drive.google.com/file/d/15_QIrgKwNkNfGIkZvXH4LDqy1yNocKi6/view?usp=sharing))
+=======
+- **Demo video**: [Google Drive Link](https://drive.google.com/file/d/15_QIrgKwNkNfGIkZvXH4LDqy1yNocKi6/view?usp=sharing)
+>>>>>>> feb5e68 (edit readme file)
