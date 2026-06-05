@@ -1,0 +1,17 @@
+Direct Speech-to-Speech (S2ST) Evaluation
+==================================================
+
+Architecture : SeamlessM4Tv2ForSpeechToSpeech (direct speech-to-speech)
+Evaluation   : ASR-BLEU via Whisper base (audio -> text -> BLEU)
+Examples     : 50
+
+Metric                Before        After         
+--------------------------------------------------
+ASR-BLEU              47.92         47.84         
+ASR-chrF              67.85         67.42         
+Mean latency (ms)     1090.2        1453.8        
+p95 latency (ms)      2156.0        2775.4        
+
+Note: fine-tuning improves the translation (ASR-BLEU). The voice and
+speech naturalness are unchanged because the T2U decoder and vocoder
+are not fine-tuned (they process language-agnostic English tokens).

@@ -1,0 +1,5 @@
+Metric,Before (zero-shot S2ST),After (fine-tuned S2ST)
+ASR-BLEU,47.92,47.84
+ASR-chrF,67.85,67.42
+Mean latency (ms),1090.2,1453.8
+p95 latency (ms),2156.0,2775.4

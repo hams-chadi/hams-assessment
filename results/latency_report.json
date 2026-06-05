@@ -1,0 +1,13 @@
+{
+  "n_samples": 50,
+  "num_beams": 5,
+  "mean_latency_ms": 274.4,
+  "p50_latency_ms": 272.4,
+  "p95_latency_ms": 341.0,
+  "max_latency_ms": 369.1,
+  "mean_rtf": 0.075,
+  "p95_rtf": 0.1,
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 5080",
+  "batch_size": 1
+}

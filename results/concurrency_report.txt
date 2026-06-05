@@ -1,0 +1,13 @@
+Concurrency Benchmark
+==================================================
+
+Device : cuda
+GPU    : NVIDIA GeForce RTX 5080
+
+ concurrency  n_requests  failures  mean_lat_ms  p95_lat_ms  throughput_rps  vram_gb
+           1          16         0        255.4       331.7            3.90     6.03
+           2          16         0        443.4       473.6            4.39     6.04
+           4          16         0        889.7       932.0            4.31     6.06
+
+Threads share one GPU, so latency rises with concurrency. The test
+confirms the model serves multiple sessions without failures.

@@ -1,0 +1,4 @@
+Model,Parameters,Fine-tuned,BLEU,chrF,COMET,Mean latency (ms),p95 latency (ms)
+v1-medium (zero-shot),1.2B,No,42.38,61.7,TBD,1191.0,1726.9
+v2-large (zero-shot),2.3B,No,47.91,65.45,0.8864,283.7,364.7
+v2-large (fine-tuned),2.3B,Yes (LoRA),50.01,66.53,0.8906,282.3,363.0

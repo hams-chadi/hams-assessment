@@ -1,0 +1,11 @@
+Translation Quality Benchmark
+==================================================
+
+Test examples : 300
+Device        : cuda
+
+Metric    Before (zero-shot)    After (fine-tuned)    
+------------------------------------------------------
+BLEU      47.68                 48.97                 
+chrF      65.13                 65.55                 
+COMET     0.8846                0.8847                

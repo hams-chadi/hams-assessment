@@ -1,0 +1,4 @@
+Model,Parameters,Fine-tuned,BLEU,chrF,Mean latency (ms)
+v1-medium (zero-shot),1.2B,No,42.38,61.7,1191.0
+v2-large (zero-shot),2.3B,No,47.91,65.45,283.7
+v2-large (fine-tuned),2.3B,Yes (LoRA),49.2,65.89,274.4

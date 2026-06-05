@@ -1,0 +1,488 @@
+{
+  "zero_shot": [
+    {
+      "rank": 1,
+      "duration_s": 1.9,
+      "arabic": "خذلتني.",
+      "reference": "She disappointed me.",
+      "latency_ms": 616.1
+    },
+    {
+      "rank": 2,
+      "duration_s": 2.54,
+      "arabic": "هو خالي.",
+      "reference": "It is empty.",
+      "latency_ms": 288.7
+    },
+    {
+      "rank": 3,
+      "duration_s": 2.81,
+      "arabic": ".إحدى حقائبي مفقودة",
+      "reference": "One of my bags is missing",
+      "latency_ms": 348.0
+    },
+    {
+      "rank": 4,
+      "duration_s": 2.98,
+      "arabic": "ما حال أختك الآن ؟",
+      "reference": "How is your sister now?",
+      "latency_ms": 303.8
+    },
+    {
+      "rank": 5,
+      "duration_s": 3.1,
+      "arabic": "كانت تعمل لدى شركتنا.",
+      "reference": "She was working for our company.",
+      "latency_ms": 298.9
+    },
+    {
+      "rank": 6,
+      "duration_s": 3.22,
+      "arabic": "أنت لست صديقنا.",
+      "reference": "You are not our friend.",
+      "latency_ms": 313.0
+    },
+    {
+      "rank": 7,
+      "duration_s": 3.31,
+      "arabic": ".هذه عصافير",
+      "reference": "These are birds.",
+      "latency_ms": 286.2
+    },
+    {
+      "rank": 8,
+      "duration_s": 3.43,
+      "arabic": "فقدت ثقتي به.",
+      "reference": "I don’t trust him anymore.",
+      "latency_ms": 317.5
+    },
+    {
+      "rank": 9,
+      "duration_s": 3.5,
+      "arabic": "لا يهمني إذا هطل الثلج.",
+      "reference": "I don’t care If It snows.",
+      "latency_ms": 357.3
+    },
+    {
+      "rank": 10,
+      "duration_s": 3.62,
+      "arabic": "أتستطيع الكلام بالألمانية ؟",
+      "reference": "Can you speak German?",
+      "latency_ms": 285.1
+    },
+    {
+      "rank": 11,
+      "duration_s": 3.74,
+      "arabic": "لا يكون المصرف مفتوحاً أيام الأحد.",
+      "reference": "The bank is closed every Sunday.",
+      "latency_ms": 346.1
+    },
+    {
+      "rank": 12,
+      "duration_s": 3.89,
+      "arabic": "فلنحاول!",
+      "reference": "Let us try!",
+      "latency_ms": 296.6
+    },
+    {
+      "rank": 13,
+      "duration_s": 3.98,
+      "arabic": "أحبه أكثر من بقية الأولاد.",
+      "reference": "I love him more than the other children.",
+      "latency_ms": 375.1
+    },
+    {
+      "rank": 14,
+      "duration_s": 4.1,
+      "arabic": ".أطفأ التلفاز",
+      "reference": "Turn off the TV.",
+      "latency_ms": 305.8
+    },
+    {
+      "rank": 15,
+      "duration_s": 4.18,
+      "arabic": ".صوت الكمان جميل جداً",
+      "reference": "The violin sound is very nice.",
+      "latency_ms": 320.3
+    },
+    {
+      "rank": 16,
+      "duration_s": 4.3,
+      "arabic": ".أبقِ غرفتك نظيفةً بقدر الإمكان",
+      "reference": "Keep your room clean as much as possible.",
+      "latency_ms": 334.9
+    },
+    {
+      "rank": 17,
+      "duration_s": 4.44,
+      "arabic": "إحدى الحقائب فارغة تماماً.",
+      "reference": "One of the bags is complexly empty.",
+      "latency_ms": 359.5
+    },
+    {
+      "rank": 18,
+      "duration_s": 4.82,
+      "arabic": "عادة ما تخلد إلى السرير الساعة التاسعة.",
+      "reference": "She usually goes to bed at nine.",
+      "latency_ms": 329.3
+    },
+    {
+      "rank": 19,
+      "duration_s": 5.18,
+      "arabic": ".يبدو المعطف الأحمر جميلاً عليك",
+      "reference": "The red coat looks beautiful on you.",
+      "latency_ms": 350.0
+    },
+    {
+      "rank": 20,
+      "duration_s": 6.24,
+      "arabic": "كلمة أخرى للكوسة هي الكوسة",
+      "reference": "Another word of zucchini is zucchini.",
+      "latency_ms": 327.0
+    }
+  ],
+  "fine_tuned": [
+    {
+      "rank": 1,
+      "duration_s": 1.9,
+      "arabic": "خذلتني.",
+      "reference": "She disappointed me.",
+      "translation": "You let me down.",
+      "latency_ms": 976.4,
+      "s2tt_ms": 288.3,
+      "tts_ms": 688.1
+    },
+    {
+      "rank": 2,
+      "duration_s": 2.54,
+      "arabic": "هو خالي.",
+      "reference": "It is empty.",
+      "translation": "It's empty.",
+      "latency_ms": 361.1,
+      "s2tt_ms": 236.6,
+      "tts_ms": 124.5
+    },
+    {
+      "rank": 3,
+      "duration_s": 2.81,
+      "arabic": ".إحدى حقائبي مفقودة",
+      "reference": "One of my bags is missing",
+      "translation": "One of my bags is missing.",
+      "latency_ms": 357.3,
+      "s2tt_ms": 301.6,
+      "tts_ms": 55.7
+    },
+    {
+      "rank": 4,
+      "duration_s": 2.98,
+      "arabic": "ما حال أختك الآن ؟",
+      "reference": "How is your sister now?",
+      "translation": "How is your sister now?",
+      "latency_ms": 327.1,
+      "s2tt_ms": 268.4,
+      "tts_ms": 58.7
+    },
+    {
+      "rank": 5,
+      "duration_s": 3.1,
+      "arabic": "كانت تعمل لدى شركتنا.",
+      "reference": "She was working for our company.",
+      "translation": "She worked for our company.",
+      "latency_ms": 326.6,
+      "s2tt_ms": 267.6,
+      "tts_ms": 59.1
+    },
+    {
+      "rank": 6,
+      "duration_s": 3.22,
+      "arabic": "أنت لست صديقنا.",
+      "reference": "You are not our friend.",
+      "translation": "You're not our friend.",
+      "latency_ms": 306.7,
+      "s2tt_ms": 248.5,
+      "tts_ms": 58.2
+    },
+    {
+      "rank": 7,
+      "duration_s": 3.31,
+      "arabic": ".هذه عصافير",
+      "reference": "These are birds.",
+      "translation": "These are birds.",
+      "latency_ms": 281.4,
+      "s2tt_ms": 235.5,
+      "tts_ms": 45.9
+    },
+    {
+      "rank": 8,
+      "duration_s": 3.43,
+      "arabic": "فقدت ثقتي به.",
+      "reference": "I don’t trust him anymore.",
+      "translation": "I lost my confidence in him.",
+      "latency_ms": 351.3,
+      "s2tt_ms": 292.2,
+      "tts_ms": 59.1
+    },
+    {
+      "rank": 9,
+      "duration_s": 3.5,
+      "arabic": "لا يهمني إذا هطل الثلج.",
+      "reference": "I don’t care If It snows.",
+      "translation": "I don't care if it snows.",
+      "latency_ms": 373.0,
+      "s2tt_ms": 314.6,
+      "tts_ms": 58.4
+    },
+    {
+      "rank": 10,
+      "duration_s": 3.62,
+      "arabic": "أتستطيع الكلام بالألمانية ؟",
+      "reference": "Can you speak German?",
+      "translation": "Can you speak German?",
+      "latency_ms": 322.5,
+      "s2tt_ms": 265.9,
+      "tts_ms": 56.6
+    },
+    {
+      "rank": 11,
+      "duration_s": 3.74,
+      "arabic": "لا يكون المصرف مفتوحاً أيام الأحد.",
+      "reference": "The bank is closed every Sunday.",
+      "translation": "The bank is not open on Sundays.",
+      "latency_ms": 360.3,
+      "s2tt_ms": 299.3,
+      "tts_ms": 60.9
+    },
+    {
+      "rank": 12,
+      "duration_s": 3.89,
+      "arabic": "فلنحاول!",
+      "reference": "Let us try!",
+      "translation": "Let's try.",
+      "latency_ms": 329.0,
+      "s2tt_ms": 272.3,
+      "tts_ms": 56.7
+    },
+    {
+      "rank": 13,
+      "duration_s": 3.98,
+      "arabic": "أحبه أكثر من بقية الأولاد.",
+      "reference": "I love him more than the other children.",
+      "translation": "I love him more than the rest of the boys.",
+      "latency_ms": 377.2,
+      "s2tt_ms": 314.8,
+      "tts_ms": 62.4
+    },
+    {
+      "rank": 14,
+      "duration_s": 4.1,
+      "arabic": ".أطفأ التلفاز",
+      "reference": "Turn off the TV.",
+      "translation": "Turn off the TV.",
+      "latency_ms": 267.1,
+      "s2tt_ms": 223.0,
+      "tts_ms": 44.1
+    },
+    {
+      "rank": 15,
+      "duration_s": 4.18,
+      "arabic": ".صوت الكمان جميل جداً",
+      "reference": "The violin sound is very nice.",
+      "translation": "The sound of the violin is very beautiful.",
+      "latency_ms": 352.3,
+      "s2tt_ms": 289.4,
+      "tts_ms": 63.0
+    },
+    {
+      "rank": 16,
+      "duration_s": 4.3,
+      "arabic": ".أبقِ غرفتك نظيفةً بقدر الإمكان",
+      "reference": "Keep your room clean as much as possible.",
+      "translation": "Keep your room as clean as possible.",
+      "latency_ms": 351.3,
+      "s2tt_ms": 289.6,
+      "tts_ms": 61.7
+    },
+    {
+      "rank": 17,
+      "duration_s": 4.44,
+      "arabic": "إحدى الحقائب فارغة تماماً.",
+      "reference": "One of the bags is complexly empty.",
+      "translation": "One of the bags is completely empty.",
+      "latency_ms": 371.7,
+      "s2tt_ms": 311.6,
+      "tts_ms": 60.0
+    },
+    {
+      "rank": 18,
+      "duration_s": 4.82,
+      "arabic": "عادة ما تخلد إلى السرير الساعة التاسعة.",
+      "reference": "She usually goes to bed at nine.",
+      "translation": "She usually goes to bed at nine.",
+      "latency_ms": 386.3,
+      "s2tt_ms": 339.3,
+      "tts_ms": 47.0
+    },
+    {
+      "rank": 19,
+      "duration_s": 5.18,
+      "arabic": ".يبدو المعطف الأحمر جميلاً عليك",
+      "reference": "The red coat looks beautiful on you.",
+      "translation": "The red coat looks nice on you.",
+      "latency_ms": 346.4,
+      "s2tt_ms": 290.7,
+      "tts_ms": 55.6
+    },
+    {
+      "rank": 20,
+      "duration_s": 6.24,
+      "arabic": "كلمة أخرى للكوسة هي الكوسة",
+      "reference": "Another word of zucchini is zucchini.",
+      "translation": "Another word for kiss is kiss.",
+      "latency_ms": 354.8,
+      "s2tt_ms": 297.5,
+      "tts_ms": 57.4
+    }
+  ],
+  "stt_kokoro": [
+    {
+      "rank": 1,
+      "duration_s": 1.9,
+      "arabic": "خذلتني.",
+      "reference": "She disappointed me.",
+      "latency_ms": 2824.0
+    },
+    {
+      "rank": 2,
+      "duration_s": 2.54,
+      "arabic": "هو خالي.",
+      "reference": "It is empty.",
+      "latency_ms": 1496.1
+    },
+    {
+      "rank": 3,
+      "duration_s": 2.81,
+      "arabic": ".إحدى حقائبي مفقودة",
+      "reference": "One of my bags is missing",
+      "latency_ms": 2407.8
+    },
+    {
+      "rank": 4,
+      "duration_s": 2.98,
+      "arabic": "ما حال أختك الآن ؟",
+      "reference": "How is your sister now?",
+      "latency_ms": 1916.2
+    },
+    {
+      "rank": 5,
+      "duration_s": 3.1,
+      "arabic": "كانت تعمل لدى شركتنا.",
+      "reference": "She was working for our company.",
+      "latency_ms": 1843.6
+    },
+    {
+      "rank": 6,
+      "duration_s": 3.22,
+      "arabic": "أنت لست صديقنا.",
+      "reference": "You are not our friend.",
+      "latency_ms": 1912.6
+    },
+    {
+      "rank": 7,
+      "duration_s": 3.31,
+      "arabic": ".هذه عصافير",
+      "reference": "These are birds.",
+      "latency_ms": 1927.0
+    },
+    {
+      "rank": 8,
+      "duration_s": 3.43,
+      "arabic": "فقدت ثقتي به.",
+      "reference": "I don’t trust him anymore.",
+      "latency_ms": 2123.0
+    },
+    {
+      "rank": 9,
+      "duration_s": 3.5,
+      "arabic": "لا يهمني إذا هطل الثلج.",
+      "reference": "I don’t care If It snows.",
+      "latency_ms": 2344.4
+    },
+    {
+      "rank": 10,
+      "duration_s": 3.62,
+      "arabic": "أتستطيع الكلام بالألمانية ؟",
+      "reference": "Can you speak German?",
+      "latency_ms": 2122.0
+    },
+    {
+      "rank": 11,
+      "duration_s": 3.74,
+      "arabic": "لا يكون المصرف مفتوحاً أيام الأحد.",
+      "reference": "The bank is closed every Sunday.",
+      "latency_ms": 2678.9
+    },
+    {
+      "rank": 12,
+      "duration_s": 3.89,
+      "arabic": "فلنحاول!",
+      "reference": "Let us try!",
+      "latency_ms": 2501.1
+    },
+    {
+      "rank": 13,
+      "duration_s": 3.98,
+      "arabic": "أحبه أكثر من بقية الأولاد.",
+      "reference": "I love him more than the other children.",
+      "latency_ms": 2930.2
+    },
+    {
+      "rank": 14,
+      "duration_s": 4.1,
+      "arabic": ".أطفأ التلفاز",
+      "reference": "Turn off the TV.",
+      "latency_ms": 2524.1
+    },
+    {
+      "rank": 15,
+      "duration_s": 4.18,
+      "arabic": ".صوت الكمان جميل جداً",
+      "reference": "The violin sound is very nice.",
+      "latency_ms": 2491.7
+    },
+    {
+      "rank": 16,
+      "duration_s": 4.3,
+      "arabic": ".أبقِ غرفتك نظيفةً بقدر الإمكان",
+      "reference": "Keep your room clean as much as possible.",
+      "latency_ms": 2623.8
+    },
+    {
+      "rank": 17,
+      "duration_s": 4.44,
+      "arabic": "إحدى الحقائب فارغة تماماً.",
+      "reference": "One of the bags is complexly empty.",
+      "latency_ms": 3279.4
+    },
+    {
+      "rank": 18,
+      "duration_s": 4.82,
+      "arabic": "عادة ما تخلد إلى السرير الساعة التاسعة.",
+      "reference": "She usually goes to bed at nine.",
+      "latency_ms": 2843.1
+    },
+    {
+      "rank": 19,
+      "duration_s": 5.18,
+      "arabic": ".يبدو المعطف الأحمر جميلاً عليك",
+      "reference": "The red coat looks beautiful on you.",
+      "latency_ms": 3132.2
+    },
+    {
+      "rank": 20,
+      "duration_s": 6.24,
+      "arabic": "كلمة أخرى للكوسة هي الكوسة",
+      "reference": "Another word of zucchini is zucchini.",
+      "latency_ms": 3555.2
+    }
+  ]
+}

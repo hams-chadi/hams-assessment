@@ -1,0 +1,45 @@
+LoRA Fine-Tuning Training History
+==================================================
+
+Model Configuration
+------------------------------
+Base model       : facebook/seamless-m4t-v2-large
+LoRA rank        : 16
+LoRA alpha       : 32
+LoRA dropout     : 0.05
+Target modules   : ['q_proj', 'k_proj', 'v_proj', 'out_proj']
+
+Training Configuration
+------------------------------
+Train samples    : 1113
+Valid samples    : 300
+Test samples     : 300
+Epochs           : 10
+Batch size       : 4
+Grad accumulation: 4
+Effective batch  : 16
+Learning rate    : 5e-06
+Device           : cuda
+GPU              : NVIDIA GeForce RTX 5080
+VRAM total       : 17.1 GB
+
+Loss Per Epoch
+------------------------------
+Epoch    Train Loss      Val Loss       
+1        2.8988          2.0589         
+2        2.7768          1.9943         
+3        2.6884          1.9465         
+4        2.5706          1.9118         
+5        2.4968          1.8891         
+6        2.4253          1.8746         
+7        2.3864          1.8657         
+8        2.3578          1.8611         
+9        2.3727          1.8593         
+10       2.3317          1.8591         
+
+Summary
+------------------------------
+Best val loss    : 1.8591 (epoch 10)
+Final train loss : 2.3317
+Final val loss   : 1.8591
+Adapter saved to : arabic_en_translation\checkpoints\lora_s2tt\best_adapter

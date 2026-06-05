@@ -1,0 +1,6 @@
+Metric,Before (zero-shot),After (fine-tuned)
+BLEU,47.91,49.2
+chrF,65.45,65.89
+COMET,0.8864,0.8858
+Mean latency (ms),283.7,2003.8
+p95 latency (ms),364.7,2995.6

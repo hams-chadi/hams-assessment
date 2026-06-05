@@ -1,0 +1,17 @@
+Optimization Experiments
+================================================================================
+
+           Configuration  Mean lat (ms)  p95 lat (ms)  BLEU  chrF  Peak VRAM (GB)
+Baseline (fp32, beams=5)          343.7         416.5 52.33 70.52            6.77
+  Greedy (fp32, beams=1)          305.7         386.7 50.64 69.02            6.77
+           fp32, beams=2          306.5         378.3 52.28 70.41            6.76
+           fp16, beams=5          340.8         420.5 52.33 70.52            4.81
+ fp16, beams=1 (fastest)          293.0         347.2 50.64 69.02            4.81
+  torch.compile, beams=5          959.1        1561.1 52.33 70.52            7.82
+
+Notes:
+- Baseline: float32 weights, beam search width 5 (current production config)
+- Greedy (beams=1): fastest option, small BLEU drop expected
+- fp16: half precision, lower memory, similar or better latency
+- torch.compile: JIT compilation, benefit varies by GPU and PyTorch version
+- Smaller model (v1-medium): tested in Section 6b, slower despite fewer params

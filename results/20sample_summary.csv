@@ -1,0 +1,4 @@
+System,Mean (ms),p50 (ms),p95 (ms),Max (ms)
+Zero-shot Direct S2ST,338.0,323.6,387.2,616.1
+Fine-tuned S2TT + Kokoro,374.0,351.8,415.8,976.4
+Fine-tuned S2TT + SeamlessM4T Vocoder,2473.8,2496.4,3293.2,3555.2

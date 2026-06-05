@@ -1,0 +1,19 @@
+﻿id,source,reference,hypothesis,errors
+8,هل معك ولاعة ؟,Do you have a lighter?,Do you have it or not?,negation_error
+11,لا أظن أنه قادم.,I don’t think he’s coming.,I don't think he's coming.,negation_error
+50,لم يكن لدينا خيار إلا الذهاب إلى هناك.,We haven’t got any options except for going there.,We had no choice but to go there.,negation_error
+58,ألا تشعر بالبرد ؟,Don't you feel cold?,Did you go to the green?,negation_error
+67,.لا تستخدم قلمي,Don’t use my pen.,Don't use my pen.,negation_error
+82,هناك الكثير من المشاكل التي لا يمكننا تجنبها.,There are many problems that we can’t avoid.,There's a lot of problems we can't avoid.,negation_error
+84,.لا تقطع هذه الأشجار,Don’t cut these trees.,Don't cut these trees.,negation_error
+115,.لا يحترق البلاستيك بسهولة,Plastic doesn’t get burned easily.,Plastic doesn't burn easily.,negation_error
+122,العلم يرفع بيتاً لا عماد له والجهل يهدم بيت العز والشرف,"Science raises a house without a pillar, and ignorance destroys the house of honor and honor","Knowledge builds a house that has no foundation, and ignorance destroys the house of honor.",negation_error
+132,لما لم تقل لها ؟,Why didn’t you tell her?,Why didn't you tell her?,negation_error
+141,ليس كل ما على شبكة الإنترنت يمكن إيجاده باستخدام جوجل.,You can’t find everything on the internet by using google.,Not everything on the Internet can be found using Google.,negation_error
+154,لم يشجّعها أحد.,Nobody encouraged her.,No one encouraged her.,negation_error
+182,نحن لا نعرفه.,We don’t know him.,We don't know him.,negation_error
+191,لا أعرف .,I don’t know.,I don't know.,negation_error
+218,لا يكون المصرف مفتوحاً أيام الأحد.,The bank is closed every Sunday.,The bank is not open on Sundays.,negation_error
+253,لا يهمني إذا هطل الثلج.,I don’t care If It snows.,I don't care if it snows.,negation_error
+257,لم ترد أن تتدخل.,She didn’t want to get involved.,You didn't want to interfere.,negation_error
+279,ليس بإمكان الطفل المشي بعد.,The child can’t walk yet.,The baby can't walk yet.,negation_error

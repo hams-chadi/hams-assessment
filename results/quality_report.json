@@ -1,0 +1,14 @@
+{
+  "n_samples": 300,
+  "device": "cuda",
+  "fine_tuned": {
+    "BLEU": 48.97,
+    "chrF": 65.55,
+    "COMET": 0.8847
+  },
+  "zero_shot": {
+    "BLEU": 47.68,
+    "chrF": 65.13,
+    "COMET": 0.8846
+  }
+}
